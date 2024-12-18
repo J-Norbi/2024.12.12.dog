@@ -42,7 +42,7 @@ namespace _2024._12._12.gyakorlas
         void Button3Event(Object s, EventArgs e)
         {
             try     //  ellenőrzi, hogy megfelelő-e a formátuma a beírt szövegnek, és csak a helyeset írja ki.
-                    //  a ry-catch, csak a program hibát figyeli, a logikai hibát nem. A logikai hibát if-el tudod kivédeni.
+                    //  a try-catch, csak a program hibát figyeli, a logikai hibát nem. A logikai hibát if-el tudod kivédeni.
             {
                 Dog oneDog = new Dog(textBox1.Text, int.Parse(textBox2.Text));
                 //oneDog.age = int.Parse(textBox2.Text);
